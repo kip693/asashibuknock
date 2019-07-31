@@ -1,0 +1,30 @@
+/* フローティングバナー */
+#fixed_left_banner
+{
+    /* 右端の上から20pxの位置に固定表示 */
+    position: fixed;
+    top: 300px;
+    right: 0;
+    width: 4.94%
+  
+}
+/* リンク要素 */
+#fixed_left_banner > a
+{
+    /* ブロック要素に変更 */
+    display: block;
+    /* 透過変更をスムーズにする(任意) */
+   -webkit-transition: opacity .2s ease;
+   transition: opacity .2s ease;
+}
+/* マウスオーバー時の表現 */
+#fixed_left_banner > a:hover
+{
+    /* 20%透過させる */
+    opacity: .8;
+}
+.navbar{
+  background-color: white;
+  vertical-align: middle;
+  text-align: center;
+}
